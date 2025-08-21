@@ -1,20 +1,21 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   background: black;
   color: #e7e7e7;
   min-height: 100vh;
-  line-height: 1.5 ;
+  line-height: 1.5;
 }
 
-.image-gradient{
+.image-gradient {
   position: absolute;
   top: 0;
-  right:0;
+  right: 0;
   opacity: 0.5;
   z-index: -1;
 }
@@ -32,7 +33,7 @@ body {
   width: 100%;
   margin: 0 auto;
   padding: 0 2rem;
-  position:relative;
+  position: relative;
   overflow: hidden;
 }
 header {
@@ -41,7 +42,6 @@ header {
   align-items: center;
   padding: 1rem 5rem;
   /* z-index: 999; */
-
 }
 
 header h1 {
@@ -66,7 +66,7 @@ nav a {
 }
 nav a:hover {
   /* color: #8f94fb; */
-  color: #a7a7a7
+  color: #a7a7a7;
 }
 .btn-signup {
   background-color: #a7a7a7;
@@ -79,14 +79,12 @@ nav a:hover {
   transition: background-color 0.2s ease;
   cursor: pointer;
   z-index: 999;
-
 }
 .btn-signup:hover {
   background-color: white;
-
 }
 
-main{
+main {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -100,30 +98,35 @@ main{
   position: relative;
   top: -1000px;
   /* z-index: 999; */
-
 }
 
-.tag-box{
+.tag-box {
   position: relative;
   width: 18rem;
   height: 2.5rem;
   border-radius: 50px;
   /* background: linear-gradient(to right, #4e54c8, #8f94fb); */
-  background: linear-gradient(to right, #656565, #7f42a7, #6600c5, #5300a0, #757575,#656565);
+  background: linear-gradient(
+    to right,
+    #656565,
+    #7f42a7,
+    #6600c5,
+    #5300a0,
+    #757575,
+    #656565
+  );
   background-size: 200%;
   animation: animationGradient 2.5s linear infinite;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
-
 }
 
 @keyframes animationGradient {
   to {
     background-position: 200%;
   }
-  
 }
 
-.tag-box .tag{
+.tag-box .tag {
   position: absolute;
   inset: 3px 3px 3px 3px;
   background-color: black;
@@ -133,40 +136,38 @@ main{
   justify-content: center;
   transition: 0.5s ease;
   cursor: pointer;
-
 }
 
-.tag-box .tag:hover{
+.tag-box .tag:hover {
   color: #5300a0;
   /* color: gold; */
 }
 
-.content h2{
+.content h2 {
   font-size: 4rem;
   font-weight: 600;
   letter-spacing: 0.1rem;
   margin: 2rem 0;
   line-height: 1.2;
-  text-shadow: 0 0 10px rgba(128 , 128, 128, 0.418);
-
+  text-shadow: 0 0 10px rgba(128, 128, 128, 0.418);
 }
-.description{
+.description {
   font-size: 1.2rem;
   letter-spacing: 0.05rem;
   max-width: 35rem;
   color: gray;
 }
-footer{
+footer {
   margin-top: auto;
 }
 
-.buttons{
+.buttons {
   display: flex;
   gap: 1rem;
   margin-top: 3rem;
 }
 
-.btn-get-started{
+.btn-get-started {
   text-decoration: none;
   border: 1px solid #2a2a2a;
   padding: 0.7rem 1.2rem;
@@ -175,14 +176,13 @@ footer{
   font-weight: 600;
   letter-spacing: 0.1em;
   transition: background-color 0.2s ease;
-
 }
 
-.btn-get-started:hover{
+.btn-get-started:hover {
   background-color: #1a1a1a;
 }
 
-.btn-signing-main{
+.btn-signing-main {
   text-decoration: none;
   background-color: lightgray;
   color: black;
@@ -194,150 +194,137 @@ footer{
   transition: background-color 0.2s ease;
 }
 
-.btn-signing-main:hover{
+.btn-signing-main:hover {
   background-color: gray;
 }
 
-.robot{
+.robot {
   position: relative;
   overflow: hidden;
-  clip-path: inset(0 0 100px 500px); 
+  clip-path: inset(0 0 100px 500px);
   /*top right bottom left*/
   top: 1px;
   right: -400px;
 }
-.robat-3d{
+.robat-3d {
   position: absolute;
   /* top: 30rem;  */
   /* right: 5%; */
   /* width: 30rem; */
-
 }
 
-
-
 footer {
-  background: #2a2a30; 
-  color: #ffffff;      /* White text */
+  background: #2a2a30;
+  color: #ffffff; /* White text */
   padding: 20px 10%;
   text-align: center;
   font-family: Arial, sans-serif;
 }
 
-@media (width: 1600px){
-  header{
+@media (width: 1600px) {
+  header {
     padding: 1rem 1rem;
   }
-  .content{
+  .content {
     /* margin-top: 25rem; */
     /* margin-top: 85%; */
     top: -220px;
   }
-  .robot-3d{
-    position:relative;
+  .robot-3d {
+    position: relative;
     /* scale: 0.9; */
-    top: 100px ;
+    top: 100px;
     right: -200px;
   }
 }
-@media (width: 1500px){
-  header{
+@media (width: 1500px) {
+  header {
     padding: 1rem 1rem;
   }
-  .content{
+  .content {
     /* margin-top: 25rem; */
     /* margin-top: 85%; */
     top: -220px;
   }
 }
-@media (max-width: 1300px){
-  header{
+@media (max-width: 1300px) {
+  header {
     padding: 1rem 0.5rem;
-
   }
-  .content{
+  .content {
     margin-top: 85%;
-
   }
-  .robot-3d{
+  .robot-3d {
     position: absolute;
     scale: 0.8;
     /* padding: top 100px; */
-    top: 100px ;
+    top: 100px;
     right: 20px;
   }
 }
-@media (width: 1200px){
-  header{
+@media (width: 1200px) {
+  header {
     padding: 1rem 1rem;
   }
-    nav{
+  nav {
     display: none;
-
   }
-  .content{
+  .content {
     /* margin-top: 25rem; */
     /* margin-top: 85%; */
     top: -220px;
   }
 }
-@media (max-width: 786px){
-  header{
+@media (max-width: 786px) {
+  header {
     padding: 1rem 0.2rem;
   }
-  nav{
+  nav {
     display: none;
-
   }
   header h2 {
     font-size: 2rem;
   }
-  .btn-signup{
+  .btn-signup {
     padding: 0.6rem 1.5rem;
   }
-  .content{
+  .content {
     margin-top: 25rem;
     top: -500px;
   }
 
-  .robot{
-  position: relative;
-  overflow: hidden;
-  /* clip-path: inset(0 0 100px 500px);  */
-  /* zoom: 150%; */
-  top: 1px;
-
-}
-.robat-3d{
-  position: absolute;
-
-
-
+  .robot {
+    position: relative;
+    overflow: hidden;
+    /* clip-path: inset(0 0 100px 500px);  */
+    /* zoom: 150%; */
+    top: 1px;
   }
-  .content{
+  .robat-3d {
+    position: absolute;
+  }
+  .content {
     max-width: 30rem;
     margin-left: 10%;
-
   }
-  .tag-box{
+  .tag-box {
     width: 12rem;
   }
-  .content h2{
+  .content h2 {
     font-size: 2.5rem;
   }
 
-  .description{
+  .description {
     font-size: 1rem;
   }
 
-  .btn-get-started{
+  .btn-get-started {
     font-size: 0.8rem;
     padding: 0.5rem 1.2rem;
   }
 
-  .btn-signing-main{
+  .btn-signing-main {
     font-size: 0.8rem;
     padding: 0.5rem 1.5rem;
   }
 }
-
