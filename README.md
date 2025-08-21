@@ -1,6 +1,6 @@
 # 🌐 My Portfolio
 Check out my portfolio here:  
-👉 [View Portfolio on GitHub Pages](https://dineshkonala.github.io/Dinesh_Konala_portfolio/)
+👉 [View Portfolio on GitHub Pages  https://dineshkonala.github.io/Dinesh_Konala_portfolio/](https://dineshkonala.github.io/Dinesh_Konala_portfolio/)
 
 Welcome to my personal portfolio website!  
 This project is hosted on **GitHub Pages** and serves as a showcase of my work, skills, and projects.
